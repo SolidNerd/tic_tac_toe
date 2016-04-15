@@ -1,9 +1,14 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
+import Row from './row.jsx';
 
 export default class App extends Component {
   render() {
     return (
-      <h1 className={"sample"}>Insert Tic Tac Toe here.</h1>
+      <div className={"container"}>
+        <Row></Row>
+        <Row></Row>
+        <Row></Row>
+      </div>
     )
   }
 }
